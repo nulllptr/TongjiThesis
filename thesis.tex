@@ -1,4 +1,4 @@
-\documentclass[degree=doctor,bibtype=numeric]{tongjithesis}
+\documentclass[degree=master,bibtype=numeric]{tongjithesis}
 % 选项：
 %   degree=[master|doctor], 							% 必选
 %   bibtype=[numeric|authoryear], 						% 可选，数字式引用|作者-年份引用，默认为数字式（上标）引用
@@ -32,15 +32,15 @@
 % 目录
 \tableofcontents
 % 符号对照表
-\begin{denotation}
-\input{data/denotation}
-\end{denotation}
+% \begin{denotation}
+%     \input{data/denotation}
+% \end{denotation}
 
 %%% 以下索引按需要选择
 % 插图索引
-\listoffigures
+% \listoffigures
 % 表格索引
-\listoftables
+% \listoftables
 % 公式索引
 % \listofequations
 
@@ -48,27 +48,30 @@
 \mainmatter
 \include{data/chap01}
 \include{data/chap02}
+\include{data/chap03}
+\include{data/chap04}
+\include{data/chap05}
+\include{data/chap06}
 
 %%% 其它部分
 \backmatter
 
-% 致谢
-\begin{acknowledgement}
-\input{data/ack}
-\end{acknowledgement}
-
 % 参考文献
 \printTJbibliography
 
+% 致谢
+\begin{acknowledgement}
+    \input{data/ack}
+\end{acknowledgement}
 
 % 附录
-\begin{appendix}
-\input{data/appendix}
-\end{appendix}
+% \begin{appendix}
+% \input{data/appendix}
+% \end{appendix}
 
 % 个人简历
 \begin{resume}
-\input{data/resume}
+    \input{data/resume}
 \end{resume}
 
 \end{document}
