@@ -1,26 +1,71 @@
 \chapter{绪论}
 \label{cha:intro}
-
 \section{研究背景}
 
+合流区域的车辆密度较大，车辆之间的交互作用较为复杂，如何在合流区域内保证车辆的安全性和稳定性是自动驾驶车辆合流问题的关键。
+
+交通运输是国民经济中具有基础性、先导性、战略性的产业。我国四通八达的交通网络，支撑了人流、物流、信息流的畅通，有效促进了经济社会的发展和人民生活水平的提升。党的二十大报告明确指出，要加快建设交通强国。
+据统计，2020年，我国高速公路里程已达16.1万公里，居世界第一位。交通运输业已成为我国国民经济的重要支柱产业，对经济社会发展的贡献率超过10\%。交通运输业的发展，对于促进经济社会发展、改善人民生活水平、提升国家综合实力具有重要意义。
+
+交通拥堵是交通系统中的常见问题，它不仅会导致时间的浪费，还会增加车辆的能源消耗和碳排放，对环境产生负面影响。因此，避免交通拥堵、优化车辆通行一直是交通管理的重要方向。
+快速路是交通体系中的重要组成部分，有利于车辆快速、高效、连续地进行跨区域长距离流动。合流区是快速路常见的瓶颈区域，主线和匝道车辆存在大量加减速、换道行为，易于发生事故，是快速路出现拥堵的重要原因之一。合流区的交通流动性直接影响着交通系统的运行效率。因此，合流区的交通流动性研究对于交通拥堵的缓解和交通系统的运行效率的提高具有重要意义。
+是在匝道上控制车辆流量。匝道是车辆汇入高速公路的点，通常是交通系统中的瓶颈。这是由于合并操作的复杂性、不同车速的车辆和来自不同方向的车辆的涌入。在匝道上的低效合并可能导致交通拥堵、增加行车时间和增加事故风险，从而显著影响高速公路的整体交通流量。
+One of the most critical areas in traffic management is the control of vehicle flow at on-ramps. On-ramps, the points where traffic merges onto highways, are often the bottlenecks in a traffic system. This is due to the complexity of merging maneuvers, varying vehicle speeds, and the influx of vehicles from different directions. Inefficient merging at on-ramps can lead to traffic congestion, increased travel time, and higher risk of accidents, significantly impacting the overall flow of traffic on highways.
+
+The Necessity of Traffic Control at On-Ramps
+
+Effective traffic control at on-ramps is essential for mitigating these challenges. By managing how vehicles merge onto highways, traffic engineers can reduce congestion, enhance safety, and improve the overall efficiency of the road network. Traditional methods of traffic control, such as traffic signals and ramp metering, have been useful, but they often fall short in addressing the dynamic nature of traffic flow and the variability of driving behaviors.
 
 \section{研究目的与意义}
 
 
 \subsection{研究目的}
+在快速路合流区场景下，考虑网联自动驾驶车辆的合流问题，设计分布式控制策略，车辆通过网联环境下的车-车、车-路通信收集信息，并控制车辆在合流区域内的运动，
 
 \subsection{研究意义}
 
 \section{主要内容与技术路线}
 
 \subsection{研究对象与主要内容}
+本研究以全网联环境下快速路合流区为研究场景，
+以网联自动驾驶车辆为研究对象，研究车辆在合流区域内的分布式控制策略，
+实现单车效益与交通流整体效益、解的最优性和计算复杂度之间的平衡，
+且易于在实际交通系统中部署和落地应用。
+
+本文的研究内容主要分为三个部分。
+
+研究内容一：基于车辆间作用力的网联自动驾驶车辆合流区分布式控制策略
+
+本策略针对主线和匝道均为单车道的基本场景，
+
+研究内容二：基于强化学习的网联自动驾驶车辆合流区分布式控制策略、
+
+
+研究内容三：车辆分布式控制并行仿真。
 
 \subsection{研究方法}
 
 \subsection{技术路线}
 
 \subsection{论文结构安排}
+本文的论文结构及内容概述如下：
 
+第1章\,绪论。介绍了研究背景、研究目的与意义、确定研究的主要内容与技术路线等。
+
+第2章\,文献综述。
+对自动驾驶车辆单车运动控制模型、合流区域的交通控制策略、
+网联环境下的自动驾驶车辆控制策略等方面的研究内容进行了综述，
+总结了现有研究的主要成果和存在的不足之处，提出本文的研究重点。
+
+% TODO: 补充内容
+第3章\,基于车辆间作用力的网联自动驾驶车辆合流区分布式控制策略。
+
+第4章\,基于强化学习的网联自动驾驶车辆合流区分布式控制策略。
+
+第5章\,车辆分布式控制并行仿真。
+
+第6章\,结论与展望。总结论文研究成果与创新点，并对未来的研究方向做简要分析，
+提出研究展望。
 
 
 % UNIX~操作系统（UNIX），是美国AT\&T公司1971年~在PDP-11上运行的操作系统。具有多用户、
